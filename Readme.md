@@ -6,5 +6,7 @@
 ![enter image description here](https://miro.medium.com/max/2756/1*rV8XbNaeIvjBiHaVxXtEEA.png)
 
 ## DESCRIPCIÓN
-<img align="center" width="100" height="100" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/facebook/230/shopping-trolley_1f6d2.png">
+<p align="center">
+  <img width="460" height="300" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/facebook/230/shopping-trolley_1f6d2.png">
+</p>
 - El Api de **Productos Online** monitorear el control de productos, permite registrar, modificar, eliminar dicho productos y generar sus informes. Tambien consta de ver sus caracteristicas de dicho producto.
