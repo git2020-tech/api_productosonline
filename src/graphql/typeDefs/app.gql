@@ -1,0 +1,13 @@
+# creamos las definiciones de tipo de las coleccion.
+type Query {
+  getApps: [App]
+}
+type Mutation {
+  createApp(nombre: String, logo: String): Boolean
+  deleteApp(_id: ID): Boolean
+}
+type App {
+  _id: ID
+  nombre: String
+  logo: String
+}

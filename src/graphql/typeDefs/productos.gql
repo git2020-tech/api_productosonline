@@ -1,0 +1,55 @@
+type Query {
+  getProducto(_id: ID): Producto
+  getProductos: [Producto]
+}
+
+type Mutation {
+  createProducto(input: ProductoInput): Boolean
+  updateProducto(_id:ID, input: ProductoInput): Boolean
+  deleteProducto(_id: ID): Boolean
+}
+
+type Producto {
+  _id: ID
+  nombre: String
+  categoria: ProductoCategoria
+  marca: ProductoMarca
+  descripcion: String
+  precio: Float
+  url_img: String
+  caracteristicas: [ProductoCaracteristica]
+}
+
+type ProductoCategoria {
+  _id: ID
+}
+
+type ProductoMarca {
+  _id: ID
+}
+
+type ProductoCaracteristica {
+  descripcion: String!
+}
+
+input ProductoInput {
+  nombre: String
+  categoria: ProductoCategoriaInput
+  marca: ProductoMarcaInput
+  descripcion: String
+  precio: Float
+  url_img: String
+  caracteristicas: [ProductoCaracteristicaInput]
+}
+
+input ProductoCategoriaInput {
+  _id: ID
+}
+
+input ProductoMarcaInput {
+  _id: ID
+}
+
+input ProductoCaracteristicaInput {
+  descripcion: String!
+}

@@ -1,0 +1,12 @@
+type Query {
+  getCategorias: [Categoria]
+}
+type Mutation {
+  createCategoria(nombre: String, icono: String): Boolean
+  deleteCategoria(_id: ID): Boolean
+}
+type Categoria {
+  _id: ID
+  nombre: String
+  icono: String
+}
