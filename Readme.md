@@ -7,7 +7,7 @@
 
 ## DESCRIPCIÓN
 
+- El Api de **Productos Online** monitorear el control de productos, permite registrar, modificar, eliminar dicho productos y generar sus informes. Tambien consta de ver sus caracteristicas de dicho producto.
 <p align="center">
   <img width="150" height="150" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/joypixels/239/shopping-cart_1f6d2.png">
 </p>
-- El Api de **Productos Online** monitorear el control de productos, permite registrar, modificar, eliminar dicho productos y generar sus informes. Tambien consta de ver sus caracteristicas de dicho producto.
