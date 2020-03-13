@@ -20,3 +20,14 @@
 	+ Digitar en el cmd el comando **`git clone ruta myhub`** . Ejemplo:
 		 + **git clone https://github.com/ColorlibHQ/AdminLTE.git myAdmin**
 + Instalar las dependencias:
+	+ **`npm install o npm i`** **es un gestor de paquetes de librerias** desarrollado bajo el lenguaje **JavaScript**. Ejemplo: **`npm install mongoose o npm i mongoose`**, es una herramienta de modelado de objetos [MongoDB](https://www.mongodb.org/) diseñada para trabajar en un entorno asíncrono.
+	+ Algunas dependencias que se instalan:
+		+ `npm install express`  : framework a ultilizar.
+		+ `npm install mongoose` : conexion mongoDB
+		+ `npm install graphQL`  : es el API que interactua el frontend y backend.
+		+ `npm install colors`   : ver los colores en consola.
+		+ `npm install morgan`   : peticiones ver el servidor.
++ Instalar las dependencias de Desarrollo: 
+	+ **`npm install nodemon -D`**  ayuda a desarrollar aplicaciones basadas en node.js al reiniciar automáticamente la aplicación de nodo cuando se detectan cambios en el directorio.
++ Instalar dependecias de forma global:	
+	+ **`npm install -g nodemon`** . Y **nodemon se instalará** globalmente en la ruta de su sistema.
